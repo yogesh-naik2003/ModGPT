@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: #ececec;
+    font-family: Inter, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.app {
+    background-color: #212121;
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+    color: #ececec;
+}
+
+.app.lightTheme {
+    background-color: #f4f4f5;
+    color: #202020;
+}
+
+.app.lightTheme .chatWindow {
+    background-color: #f4f4f5;
+}
+
+.app.lightTheme .sidebar {
+    background-color: #ffffff;
+    color: #3f3f46;
+}
+
+.app.lightTheme .navbar,
+.app.lightTheme .sidebar {
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+.app.lightTheme .inputBox input,
+.app.lightTheme .settingsPanel {
+    background-color: #ffffff;
+    color: #202020;
+}
+
+.app.lightTheme .settingsPanel select,
+.app.lightTheme .settingsPanel input,
+.app.lightTheme .searchBox input,
+.app.lightTheme .renameForm input {
+    background-color: #f4f4f5;
+    color: #202020;
+}
+
+.app.lightTheme .userMessage {
+    background-color: #e4e4e7;
+    color: #202020;
+}
